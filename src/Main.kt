@@ -7,14 +7,14 @@ open class Cuenta(
     protected var comisionMensual: Float = 0f
 
     open fun consignar(cantidad: Float) {
-        saldo += cantidad
-        numConsignaciones++
+        saldo = saldo + cantidad
+        numConsignaciones = numConsignaciones + 1
     }
 
     open fun retirar(cantidad: Float) {
         if (cantidad <= saldo) {
-            saldo -= cantidad
-            numRetiros++
+            saldo = saldo - cantidad
+            numRetiros = numRetiros + 1
         } else {
             println("Fondos insuficientes")
         }
@@ -22,11 +22,11 @@ open class Cuenta(
 
     fun calcularInteresMensual() {
         val interesMensual = saldo * (tasaAnual / 12 / 100)
-        saldo += interesMensual
+        saldo = saldo + interesMensual
     }
 
     open fun extractoMensual() {
-        saldo -= comisionMensual
+        saldo = saldo - comisionMensual
         calcularInteresMensual()
     }
 
