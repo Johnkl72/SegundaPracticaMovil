@@ -62,4 +62,22 @@ En el método `main` se muestran ejemplos de uso:
 ---
 
 ## Ejemplo de salida
+## Cuenta de Ahorros
 
+- **Saldo**: 13,000.0
+- **Número de consignaciones**: 1
+- **Número de retiros**: 1
+- **Tasa anual**: 12.0
+- **Comisión mensual**: 1,000.0
+- **Cuenta activa**: true
+- **Número total de transacciones**: 2
+
+## Cuenta Corriente
+
+- **Saldo**: 0.0
+- **Número de consignaciones**: 1
+- **Número de retiros**: 1
+- **Tasa anual**: 10.0
+- **Comisión mensual**: 0.0
+- **Sobregiro**: 2,000.0
+- **Número total de transacciones**: 2
