@@ -3,8 +3,8 @@
 Este proyecto contiene una implementación básica de un sistema bancario con clases que modelan cuentas de ahorro y cuentas corrientes en Kotlin, permitiendo consignaciones, retiros, cálculo de intereses mensuales y manejo de comisiones y sobregiros.
 
 Integrantes:
-John Luis Alberto Castillo Reupo - 22200117.
-Martín Alonso Quiñonez Ruiz - 
+- John Luis Alberto Castillo Reupo - 22200117
+- Martín Alonso Quiñonez Ruiz - 
 
 ---
 
